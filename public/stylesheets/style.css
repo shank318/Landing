@@ -22,10 +22,7 @@
     background-color: transparent;
 }
 
-.smaller-input {
-    width: 40%;
-    margin: 0px auto 15px auto;
-}
+
 
 .form-control:focus {
     border-color: transparent;
@@ -72,3 +69,34 @@
     background-image:none !important;
     filter:none !important;
  }
+
+
+    @media only screen and (min-width : 320px) {
+    
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .smaller-input {
+            width: 60%;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        .smaller-input {
+            width: 40%;
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        .smaller-input {
+            width: 40%;
+        }
+    }
