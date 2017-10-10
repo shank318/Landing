@@ -22,7 +22,7 @@
 }
 
 .home-search {
-    width: 50%;
+    width: 40%;
 }
 
 .form-control:focus {
@@ -63,3 +63,8 @@
     background-color: #fff;
     border-color: #fff;
 }
+
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter:none !important;
+ }

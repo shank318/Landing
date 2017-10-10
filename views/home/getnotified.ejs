@@ -1,10 +1,10 @@
 <% if(submitted) { %>
-            <h1 class="submitted">Thanks for subscribing.</h1>
-         <% } else{ %>
-            <form action='/email' role="form" id="home-search-form" class="home-search" method="post" onsubmit="return validateForm()">
-            <div class="input-group input-group-lg">
-                <input type='search' name='email' id='email' class="form-control" placeholder="Enter your email id" name="keywords">
-                <span class="input-group-addon home-search-button " id="submit-form">Get Updates</span>
-            </div>
-          </form>
-         <% } %>
+    <h1 class="submitted">Thanks for subscribing.</h1>
+    <% } else{ %>
+    <form action='/email' role="form" id="home-search-form" class="home-search" method="post" onsubmit="return validateForm()">
+    <div class="input-group input-group-lg">
+        <input type='search' name='email' id='email' class="form-control" placeholder="Enter your email id" name="keywords">
+        <span class="input-group-addon home-search-button " id="submit-form">Get Updates</span>
+    </div>
+    </form>
+ <% } %>
