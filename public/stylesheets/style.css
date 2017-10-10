@@ -11,18 +11,20 @@
  @font-face { font-family: NoTo; src: url('/fonts/nsr.ttf'); } 
 
 .header-text h1 {
-    font-size: 50px;
+    /* font-size: 50px; */
     font-family: NoTo;
+    line-height: 0.9;
     text-shadow: 4px 4px 10px rgba(150, 150, 150, 1);
 }
 
 .section-wrapper {
-    padding: 30px 8% 30px 8%;
+    /* padding: 30px 8% 30px 8%; */
     background-color: transparent;
 }
 
-.home-search {
+.smaller-input {
     width: 40%;
+    margin: 0px auto 15px auto;
 }
 
 .form-control:focus {
@@ -37,8 +39,10 @@
 .home-search-button {
    background: #0DDA01;
    color: white;
+   padding: 0px;
    font-size: 1.8vw;
    cursor: pointer;
+   border: 0px;
 }
 
 .home-search-button:hover {

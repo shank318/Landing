@@ -4,6 +4,12 @@ $(document).ready(function() {
     $("#home-search-form").submit();
   });
 
+  function resize() {
+    var n = $("body").width() / 35 + "pt";
+    $("h1").css('fontSize', n);
+}
+$(window).on("resize", resize);
+$(document).ready(resize);
 
 });
 
